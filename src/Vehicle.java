@@ -14,7 +14,7 @@ public class Vehicle {
     public void displayInfo(){
         System.out.println("This vehicle is "+brand+" ("+year+")");
         if (driver != null){
-            driver.displayInfo();
+            driver.displayDriverInfo();
         }else{
             System.out.println("No driver assigned.");
         }

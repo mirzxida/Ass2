@@ -12,9 +12,14 @@ public class Truck extends Vehicle{
     public void startEngine(){
         System.out.println(brand+ " truck is started.");
     }
-
+    @Override
     public void stopEngine(){
         System.out.println(brand+ " truck is stopped.");
+    }
+    @Override
+    public void displayInfo(){
+        super.displayInfo();
+        System.out.println("Truck has "+capacity+" capacity and "+numAxles+" axles.");
     }
 }
 

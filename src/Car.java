@@ -17,3 +17,4 @@ public class Car extends Vehicle{
         System.out.println(brand+ " car is stopped.");
     }
 }
+

@@ -15,3 +15,4 @@ public class Motorcycle extends Vehicle{
         System.out.println(brand+ " motorcycle is stopped.");
     }
 }
+

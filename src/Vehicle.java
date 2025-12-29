@@ -24,3 +24,4 @@ public abstract class Vehicle {
         this.driver = driver;
     }
 }
+

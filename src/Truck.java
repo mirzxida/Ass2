@@ -17,3 +17,4 @@ public class Truck extends Vehicle{
         System.out.println(brand+ " truck is stopped.");
     }
 }
+

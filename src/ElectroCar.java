@@ -14,4 +14,9 @@ public class ElectroCar extends Car{
     public void stopEngine(){
         System.out.println(brand+" electrical car is stopped");
     }
+    @Override
+    public void displayInfo(){
+        super.displayInfo();
+        System.out.println("Electrocar has "+battery+" kWh capacity.");
+    }
 }
